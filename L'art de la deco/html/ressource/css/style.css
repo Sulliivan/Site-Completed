@@ -1,0 +1,447 @@
+/*document information
+    - Document : thé thème
+    - Version : 1.0.0
+    - Author : Sullivan
+*/
+
+/* COLORS
+    -Defaut body text #eee
+    - h1
+    - h2
+    - h3
+
+    - button
+    - buttonn:hover
+
+    - border
+*/
+
+/* FONTS
+    - Default lato
+    - Subtitle
+*/
+
+
+
+/* CSS DIRECTORY
+    1. =GLOBAL
+    2. =HEADER
+
+*/
+
+
+
+/* GLOBAL
+================================*/
+html {
+    background-color: #fff;
+    
+}
+
+
+
+h1 {
+    font-family: 'lato', 'arial' 'sans-serif';
+    color: 3eee;
+    text-transform: uppercase;
+    letter-spacing: -1px;
+    font-weight: 300;
+    word-spacing: 8px;
+}
+
+
+
+
+
+p {
+    
+}
+
+h2 {
+    color: #333333;
+    font-size: 700%;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+        
+}
+
+h2:after {
+    display: block;
+    height: 4px;
+    background-color:#2997ac;
+    width: 1000px;
+    content: " ";
+    margin: auto;
+    margin-top: 10px;
+}
+
+h3 {
+    font-size: 80px;
+    margin-left: 170px;
+    margin-top: 50px;
+    
+}
+
+h4 {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 30px;
+}
+
+h6 {
+    color: white;
+    font-size: 20px;
+}
+
+
+
+body {
+    margin: 0;
+}
+
+section{
+    padding 30px 0 60px 0;
+    
+}
+/* HEADER
+================================*/
+
+header {
+    background-image: url(../image/header.jpg);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+   
+.home-title {
+    position: relative;
+    top:150px;
+   
+
+}
+
+.home-title h1 {
+    font-size: :300%;
+    color: #fff;
+
+}
+
+.home-title  h1 span{
+    font-weight: 700;
+    
+}
+
+.home-title p {
+    color: #fff;
+   
+}
+
+
+/* button 
+=================*/
+
+.btn {
+    display: inline-block;
+    padding: 10px 30px;
+    text-decoration: none;
+    border-radius: 15px;
+    transition: background-color, 1s, color 1s, border 1s;
+    
+}
+
+.btn-full {
+    background-color: azure;
+    color: black;
+    margin-right: 15px;
+    font-weight: 400px;
+}
+
+.btn-ghost {
+    border: 1px solid #fff;
+    color: #fff;
+}
+
+
+.btn-full:hover {
+    background-color: #1c96ff;
+    color: black;
+}
+
+.btn-ghost:hover {
+    background-color: #1c96ff;
+    border: 1px solid #1c96ff;
+    color: #fff;
+}
+
+/*
+==================*/
+
+.btn1 {
+    display: inline-block;
+    padding: 10px 30px 10px 30px ;
+    border-radius: 20px;
+    margin-right: 20px;
+    transition: background-color 1s, color 1s, border 1s;
+       
+}
+
+.btn-full-2 {
+    background-color: #2997ac;
+    color: black;
+    margin-top: 10px; 
+    
+}
+
+
+.btn-full-2:hover {
+    background-color: #a0def5;
+    color: black;
+    
+    
+}
+
+
+.btnclient {
+    display: block;
+    text-align: center;
+
+}
+
+.btn-mail {
+    background-color: #b59f52;
+    border: 1px solid #000000;
+    margin-left: 20px ;
+    margin-bottom: 10px;
+    margin-top: 0 auto;
+    
+}
+
+.btn-mail:hover {
+    background-color: #ffc500;
+    color: black;
+}
+
+
+
+.btn-Engagement {
+    background-color: white;
+    border: 1px solid #fff;
+    color: black;
+    margin-top: 15px;
+}
+
+.btn-Engagement:hover {
+    background-color: grey;
+    color: white;
+}
+
+
+/* deco dans le temps
+========================*/
+
+
+.galerie-photo img{
+    width: 337px;
+    margin: 20px;
+    
+}
+      
+.text {
+    margin-top: 10px;
+    margin-left: -15px;
+    
+}
+ 
+
+/* carousel
+========================*/
+
+.carousel-item img { 
+    width: 100%;
+
+}
+        
+        
+/* card
+========================*/
+        
+.card-deck {
+    margin-top: 50px;
+    margin-left: 0;
+    width: 100%;
+    margin-bottom: 50px;
+
+
+}
+
+.card {
+    padding: 10px 10px;
+
+}
+
+
+
+.canape {
+    width: 320px;
+    height: 160px;
+    background: url(../image/Card/Canap%C3%A91.jpg) no-repeat ;
+    background-size: cover;
+}
+.canape:hover {
+    width: 320px;
+    height: 160px;
+    background: url(../image/Card/Canap%C3%A92.jpg) no-repeat;
+    background-size: cover;
+}
+
+.chaise {
+    width: 320px;
+    height: 160px;
+    background: url(../image/Card/chaise.jpg);
+    background-size: cover;
+}
+
+.chaise:hover {
+    width: 320px;
+    height: 160px;
+    background: url(../image/Card/chaise2.jpg);
+    background-size: cover;
+}
+
+
+.table {
+    width: 320px;
+    height: 150px;
+    background: url(../image/Card/table.jpg);
+    background-size: cover;
+}
+
+.table:hover {
+    width: 320px;
+    height: 160px;
+    background: url(../image/Card/table2.jpg);
+    background-size: cover;
+}
+
+
+
+ 
+
+/* Newsletter
+=================*/
+        
+        
+        
+.container-news {
+    background-image: url(../image/Newsletters/petit.png);
+    background-position: center;  
+    
+}
+
+
+.container-news p {
+    font-size: 20px;
+    margin-left: 170px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}       
+        
+
+.contact-form {
+    margin-top: 100px;
+    margin-left: 50px;
+
+}
+
+.form {
+    padding: 5px 5px 5px 5px;
+    font-size: 25px;
+    border: 1px solid #000000;
+
+        
+}
+
+
+/* Charte
+==================*/
+
+
+.container-charte {
+    padding: 200px 200px 200px 170px;
+    background-image: url(../image/Newsletters/foret.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+       
+}
+
+.container-charte p {
+    color: white;
+    
+}
+
+.container-charte h5{
+    color: white ;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+
+/* Contact
+================*/
+
+.container-contact {
+    padding: 30px 20px 40px 20px; 
+    background-color: #575353;
+}
+
+.icon {
+    text-align: center;
+    
+    font-size: 50px;
+    color: #ffa75c;
+    margin-top: 10px;
+}
+
+.icon p {
+    font-size: 17px;
+    color: white;
+    margin-top: -10px;
+    
+}
+
+.container-end{
+    padding: 20px 20px 20px 20px;
+}
+
+.container-end p {
+    margin-left: 25px;
+    
+}
+
+
+/* footer
+================*/
+
+footer {
+    background-color: black;
+    color: #fff;
+    height: 60px;
+    padding: 20px 20px;
+}
+
+.copyright {
+    text-align: center;
+}
+
+.copyright a {
+    color: #1d34e5
+}
+
+/* navbar
+================*/
+
+
+
+

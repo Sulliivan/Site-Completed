@@ -1,0 +1,285 @@
+/* Document information 
+    - document dashboard
+    - version 1.0.0
+    - auteur Sullivan 
+
+*/
+
+/* Colors
+
+    - Defaut body text #eee
+
+*/
+
+/* Fonts = police
+
+     - default 
+     - subtitle
+*/
+
+/* css directory
+
+    1. =global
+    2. =header
+*/
+
+/* Global
+==================*/
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'lato', 'sanchez', sans-serif
+}
+
+    
+header {
+    z-index: 5;
+    top: 0px;
+    position: fixed;
+    background: #22242a;
+    padding: 30px;
+    width: 100%;
+}
+
+
+h6 {
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+
+
+/* navbar
+==================*/
+
+.left-area h3 {
+    color:  #fff;
+    margin: 0;
+    text-transform: uppercase;
+    font-size: 22px;
+    font-weight: 600;
+    
+}
+
+.left-area span {
+    color: #2997ac;
+}
+
+.logout_btn {
+    padding: 5px;
+    background: #2997ac;
+    float: right;
+    margin-top: -30px;
+    margin-right: 40px;
+    border-radius: 2px;
+    font-size: 15px;
+    font-weight: 600;
+    color: #fff;
+    transition: 0.5s;
+    transition-property: background;
+}
+
+.logout_btn:hover {
+    background: #2997ac;
+}
+
+
+/* sidebar
+==================*/
+
+.sidebar {
+    background: #2f323a;
+    margin-top: 0px;
+    padding-top: 25px;
+    position: fixed;
+    left: 0;
+    width: 250px;
+    height: 100%;
+    transition: 0.5s;
+    transition-property: left;
+}
+
+.sidebar .profile-image{
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    margin-bottom: 10px;
+}
+
+.sidebar h4 {
+    color: #ccc;
+    margin-top: 0;
+    margin-bottom: 1px;
+    
+}
+
+.sidebar p {
+    color: #ccc;
+}
+
+.sidebar a {
+    color: #fff;
+    display: block;
+    width: 100%;
+    line-height: 60px;
+    text-decoration: none;
+    padding-left: 40px;
+    box-sizing: border-box;
+    transition: 0.5s;
+    transition-property: background;
+    
+}
+
+.sidebar a:hover {
+    background: #2997ac;
+}
+
+
+
+.sidebar i {
+    padding-right: 10px;
+}
+
+
+label #sidebar_btn{
+    z-index: 1;
+    color: #fff;
+    position: fixed;
+    cursor: pointer;
+    left: 300px;
+    font-size: 20px;
+    margin: 20px 0;
+    transition: 0.5s;
+    transition-property: color;
+    
+}
+
+label #sidebar_btn:hover{
+    color: #2997ac;
+
+}
+
+
+#check:checked ~ .sidebar{
+    left: -190px;
+}
+
+#check:checked ~ .sidebar a span{
+    display: none;
+}
+
+
+#check:checked ~ .sidebar a{
+    font-size: 20px;
+    margin-left: 170px;
+    width: 80px;
+    
+}
+
+#check:checked ~ .content {
+    margin-left: 60px;
+}
+
+#check {
+    display:none;
+}
+
+
+.content {
+    margin-left: 250px;
+    transition: 0.5s;
+    background-color: #daeae5;
+}
+
+
+/*
+-----------------*/
+
+
+.container {
+    position: relative;
+    margin-top: 100px;
+    
+
+
+}
+
+
+.container-description  {
+    padding-left: 20px; 
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    transition: 0.5s;
+}
+
+
+
+/* total revenue
+-----------------*/
+
+.contour { 
+    text-align: center;
+    margin-top: 10px;
+    background-color: white;
+    margin-right: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px;
+}
+
+.contour:hover { 
+    text-align: center;
+    background-color: #99d6fc;
+    margin-right: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px;
+}
+
+
+.block{
+    text-align: center;
+    height: 450px;
+    background-color: 
+    white;
+    margin-top: 30px;
+    border-radius:10px;
+    box-shadow: 0 0 10px;    
+}
+
+
+/*----------*/
+
+.container-web {
+    position: relative;
+    padding: 20px 20px;
+    
+    
+  }
+
+
+
+.contour2 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 20px;
+    background-color: #fff;
+    width: 280px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px;
+   
+}
+
+.block1 {
+    text-align: center;
+    margin-right: auto;
+    
+    
+}
+
+
+.icon {
+    font-size: 50px;
+}
+
